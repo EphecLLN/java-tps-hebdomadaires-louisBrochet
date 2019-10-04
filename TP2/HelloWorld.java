@@ -1,7 +1,7 @@
 /**
  * Classe Hello World pour le TP1 du cours de Java
  */
-package TP3;
+package TP2;
 
 /**
  * @author Virginie Van den Schrieck
