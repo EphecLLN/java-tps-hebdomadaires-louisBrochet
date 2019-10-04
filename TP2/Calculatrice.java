@@ -1,4 +1,4 @@
-package tp3;
+package TP3;
 
 /**
  * Cette classe modélise une calculatrice simplifiée avec une valeur courante et trois opérations. 

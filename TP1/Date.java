@@ -1,7 +1,7 @@
 /**
  * 
  */
-package tp1;
+package TP1;
 
 
 

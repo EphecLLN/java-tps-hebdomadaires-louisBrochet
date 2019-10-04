@@ -4,4 +4,4 @@
  * @author Virginie Van den Schrieck
  *
  */
-package tp1;
+package TP1;
