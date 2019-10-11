@@ -1,4 +1,4 @@
-package TP2;
+package TP4;
 
 /**
  * Cette classe modélise une calculatrice simplifiée avec une valeur courante et trois opérations. 
@@ -46,10 +46,12 @@ public class Calculatrice {
 		valeurCourante-=n;
 	}
 	/**
-	 * Elève la valeur courante au carré
+	 * Cette méthode calcule le carré d’un nombre.
+	 * @param n : Un nombre entier quelconque
+	 * @return Un nombre >= 0, résultat de la multiplication de n par lui-même
 	 */
-	void carre() {
-		valeurCourante*=valeurCourante;
+	public int carre(int n) {
+		return n*n;
 	}
 	
 	@Override

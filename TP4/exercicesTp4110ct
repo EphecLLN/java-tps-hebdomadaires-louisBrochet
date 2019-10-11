@@ -1,0 +1,50 @@
+          EXERCICES TP4
+
+/// 1.1 ///
+
+/ bool estPaire(int nombre){}
+
+préconditions : nombre doit un être un nombre entier quelconque
+postconditions : renvoie vrai s'il nombre est pair et faux s'il est impair
+
+/ double calculPerimetreCarre(double cote){}
+
+préconditions : cote doit un être un nombre décimal quelconque
+postconditions : renvoie un double qui sera le périmètre du carré qui a pour
+taille de côté cote. Renvoie 0 si cote est négatif ou a la valeur 0
+
+/ int verifCaractere(char caractere, String chaine){}
+
+préconditions : caractere doit être un caractère et chaine une chaine de
+caractères
+postconditions : renvoie un int qui sera le nombre d'occurences du caractère
+dans la chaine de caractères
+
+/// 1.2 ///
+
+/ bool estPaire(int nombre){}
+
+  input  |  output
+  -----------------
+   -2    |  vrai
+    0    |  vrai
+    1    |  faux
+
+/ double calculPerimetreCarre(double cote){}
+
+  input  |  output
+  -----------------
+  -9.0   |   0.0
+   0.0   |   0.0
+   5.0   |   20.0
+   8.3   |   33.2
+
+/ int verifCaractere(char caractere, String chaine){}
+
+           inputs             |   output
+  ----------------------------------------
+  caractere  |    chaine      |   entier
+  ----------------------------------------
+      a      |    zaebaebzaz  |     3
+      s      |    zaebaebzaz  |     0
+      à      |    zaebaebzaz  |     0
