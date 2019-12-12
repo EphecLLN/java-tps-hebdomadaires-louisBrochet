@@ -1,4 +1,4 @@
-package TP4;
+package TP5;
 
 
 /**
@@ -7,12 +7,20 @@ package TP4;
  */
 public class Etudiant {
 	//Variables d'instance
+	private static int nbEtudiants;
 	private String nom;
 	private String prenom;
 	private int matricule;
 	//Cette variable d'instance est du type Date, disponible dans le même package
 	private Date dateNaissance;
 	
+	/**
+	 * @return the nbEtudiants
+	 */
+	public static int getNbEtudiants() {
+		return nbEtudiants;
+	}
+
 	public String getNom() {
 		return nom;
 	}

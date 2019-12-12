@@ -7,6 +7,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import TP5.ExerciceTDD;
+
 /**
  * @author lb
  *
